@@ -23,7 +23,7 @@ function AddOutlet() {
  
   <input type="text" class="form-control ms-3" placeholder="Enter Outlet Location" aria-label="Outlet Location"/>
 </div>
-<link className='btn btn-success' > Click to Add Outlet Location</link>
+<a className='btn btn-success' > Click to Add Outlet Location</a>
     </div>
   </div>
 </div>
@@ -77,7 +77,7 @@ function AddOutlet() {
                         <td>(171) 555-2222</td>
                         <td>
 
-                        <link className='delete btn btn-danger' title="Delete" href='/' data-toggle="tooltip">Delete</link>
+                        <a className='delete btn btn-danger' title="Delete" href='/' data-toggle="tooltip">Delete</a>
                         </td>
                     </tr>
                     <tr>
@@ -86,7 +86,7 @@ function AddOutlet() {
                         <td>(313) 555-5735</td>
                         <td>
                            
-                        <link className='delete btn btn-danger' title="Delete" href='/' data-toggle="tooltip">Delete</link>
+                        <a className='delete btn btn-danger' title="Delete" href='/' data-toggle="tooltip">Delete</a>
                         </td>
                     </tr>
                     <tr>
@@ -95,18 +95,18 @@ function AddOutlet() {
                         <td>(503) 555-9931</td>
                         <td>
                            
-                            <link className='delete btn btn-danger' title="Delete" href='#' data-toggle="tooltip">Delete</link>
+                            <a className='delete btn btn-danger' title="Delete" href='#' data-toggle="tooltip">Delete</a>
                         </td>
                     </tr>      
                 </tbody>
    
       <nav aria-label="Page navigation example" >
   <ul class="pagination ">
-    <li class="page-item"><link class="page-link text-dark" >Previous</link></li>
-    <li class="page-item"><link class="page-link text-dark" >1</link></li>
-    <li class="page-item"><link class="page-link text-dark" >2</link></li>
-    <li class="page-item"><link class="page-link text-dark" >3</link></li>
-    <li class="page-item"><link class="page-link text-dark" >Next</link></li>
+    <li class="page-item"><a class="page-a text-dark" >Previous</a></li>
+    <li class="page-item"><a class="page-a text-dark" >1</a></li>
+    <li class="page-item"><a class="page-a text-dark" >2</a></li>
+    <li class="page-item"><a class="page-a text-dark" >3</a></li>
+    <li class="page-item"><a class="page-a text-dark" >Next</a></li>
   </ul>
 </nav>
      

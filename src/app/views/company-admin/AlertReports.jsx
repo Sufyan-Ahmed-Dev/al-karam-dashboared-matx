@@ -26,7 +26,7 @@ function AlertReports() {
                     min="2018-01-01" max="2018-12-31" class="form-control me-3" />
 
                 </div>
-                <link className='btn btn-success btn-lg' > Filter</link>
+                <a className='btn btn-success btn-lg' > Filter</a>
               </div>
             </div>
           </div>

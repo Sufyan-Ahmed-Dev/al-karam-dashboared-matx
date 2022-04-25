@@ -9,7 +9,7 @@ function OutletManagerList() {
 
    
 <div className="container">
-<link className='btn btn-success'> Add User</link>
+<a className='btn btn-success'> Add User</a>
 </div>
 
 <div class="container-lg p-4">
@@ -50,7 +50,7 @@ function OutletManagerList() {
                         <td>(171) 555-2222</td>
                         <td>
 
-                        <link className='delete btn btn-danger' title="Delete" href='/' data-toggle="tooltip">Delete</link>
+                        <a className='delete btn btn-danger' title="Delete" href='/' data-toggle="tooltip">Delete</a>
                         </td>
                     </tr>
                     <tr>
@@ -61,7 +61,7 @@ function OutletManagerList() {
                         <td>(313) 555-5735</td>
                         <td>
                            
-                        <link className='delete btn btn-danger' title="Delete" href='/' data-toggle="tooltip">Delete</link>
+                        <a className='delete btn btn-danger' title="Delete" href='/' data-toggle="tooltip">Delete</a>
                         </td>
                     </tr>
                     <tr>
@@ -72,7 +72,7 @@ function OutletManagerList() {
                         <td>(503) 555-9931</td>
                         <td>
                            
-                            <link className='delete btn btn-danger' title="Delete" href='/' data-toggle="tooltip">Delete</link>
+                            <a className='delete btn btn-danger' title="Delete" href='/' data-toggle="tooltip">Delete</a>
                         </td>
                     </tr>     
         
