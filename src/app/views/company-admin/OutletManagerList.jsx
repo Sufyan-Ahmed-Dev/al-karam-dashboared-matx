@@ -9,7 +9,7 @@ function OutletManagerList() {
 
    
 <div className="container">
-<a className='btn btn-success' href="#"> Add User</a>
+<a className='btn btn-success' href="/"> Add User</a>
 </div>
 
 <div class="container-lg p-4">

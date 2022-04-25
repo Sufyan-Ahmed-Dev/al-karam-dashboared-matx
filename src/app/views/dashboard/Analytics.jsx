@@ -54,7 +54,7 @@ const Analytics = () => {
     <p class="card-text">Defence phase 2</p>
   
   </div>
-  <a href="#"  style={{"background" : "#188fa2" , }} class="text-white  text-center text-decoration-none p-2">More Info</a>	
+  <a href="/"  style={{"background" : "#188fa2" , }} class="text-white  text-center text-decoration-none p-2">More Info</a>	
 </div>
         </div>
     </div>
