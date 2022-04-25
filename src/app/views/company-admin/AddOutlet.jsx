@@ -23,7 +23,7 @@ function AddOutlet() {
  
   <input type="text" class="form-control ms-3" placeholder="Enter Outlet Location" aria-label="Outlet Location"/>
 </div>
-<a className='btn btn-success' > Click to Add Outlet Location</a>
+<button className='btn btn-success' > Click to Add Outlet Location</button>
     </div>
   </div>
 </div>
@@ -77,7 +77,7 @@ function AddOutlet() {
                         <td>(171) 555-2222</td>
                         <td>
 
-                        <a className='delete btn btn-danger' title="Delete" href='/' data-toggle="tooltip">Delete</a>
+                        <button className='delete btn btn-danger' title="Delete" href='/' data-toggle="tooltip">Delete</button>
                         </td>
                     </tr>
                     <tr>
@@ -86,7 +86,7 @@ function AddOutlet() {
                         <td>(313) 555-5735</td>
                         <td>
                            
-                        <a className='delete btn btn-danger' title="Delete" href='/' data-toggle="tooltip">Delete</a>
+                        <button className='delete btn btn-danger' title="Delete" href='/' data-toggle="tooltip">Delete</button>
                         </td>
                     </tr>
                     <tr>
@@ -95,18 +95,18 @@ function AddOutlet() {
                         <td>(503) 555-9931</td>
                         <td>
                            
-                            <a className='delete btn btn-danger' title="Delete" href='#' data-toggle="tooltip">Delete</a>
+                            <button className='delete btn btn-danger' title="Delete" href='#' data-toggle="tooltip">Delete</button>
                         </td>
                     </tr>      
                 </tbody>
    
       <nav aria-label="Page navigation example" >
   <ul class="pagination ">
-    <li class="page-item"><a class="page-a text-dark" >Previous</a></li>
-    <li class="page-item"><a class="page-a text-dark" >1</a></li>
-    <li class="page-item"><a class="page-a text-dark" >2</a></li>
-    <li class="page-item"><a class="page-a text-dark" >3</a></li>
-    <li class="page-item"><a class="page-a text-dark" >Next</a></li>
+    <li class="page-item"><button class="page-a text-dark" >Previous</button></li>
+    <li class="page-item"><button class="page-a text-dark" >1</button></li>
+    <li class="page-item"><button class="page-a text-dark" >2</button></li>
+    <li class="page-item"><button class="page-a text-dark" >3</button></li>
+    <li class="page-item"><button class="page-a text-dark" >Next</button></li>
   </ul>
 </nav>
      
@@ -117,9 +117,6 @@ function AddOutlet() {
     </div>
    
 </div>     
-
-
-
 
 
 

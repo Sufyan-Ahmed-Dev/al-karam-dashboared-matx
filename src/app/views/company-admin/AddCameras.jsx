@@ -27,7 +27,7 @@ function AddCameras() {
 
 <input type="text" className="form-control ms-3" placeholder="Select Associated Modals" aria-label="Associated Modals"/>
 </div>
-<a className='btn btn-success'> Click to Add New Camera</a>
+<button className='btn btn-success'> Click to Add New Camera</button>
     </div>
   </div>
 </div>
@@ -81,7 +81,7 @@ function AddCameras() {
                         <td>(171) 555-2222</td>
                         <td>
 
-                        <a className='delete btn btn-danger' title="Delete" href='/' data-toggle="tooltip">Delete</a>
+                        <button className='delete btn btn-danger' title="Delete" href='/' data-toggle="tooltip">Delete</button>
                         </td>
                     </tr>
                     <tr>
@@ -90,7 +90,7 @@ function AddCameras() {
                         <td>(313) 555-5735</td>
                         <td>
                            
-                        <a className='delete btn btn-danger' title="Delete" href='/' data-toggle="tooltip">Delete</a>
+                        <button className='delete btn btn-danger' title="Delete" href='/' data-toggle="tooltip">Delete</button>
                         </td>
                     </tr>
                     <tr>
@@ -99,18 +99,18 @@ function AddCameras() {
                         <td>(503) 555-9931</td>
                         <td>
                            
-                            <a className='delete btn btn-danger' title="Delete" href='/' data-toggle="tooltip">Delete</a>
+                            <button className='delete btn btn-danger' title="Delete" href='/' data-toggle="tooltip">Delete</button>
                         </td>
                     </tr>      
                 </tbody>
    
       <nav aria-label="Page navigation example" >
   <ul className="pagination ">
-    <li className="page-item"><a className="page-a text-dark">Previous</a></li>
-    <li className="page-item"><a className="page-a text-dark">1</a></li>
-    <li className="page-item"><a className="page-a text-dark">2</a></li>
-    <li className="page-item"><a className="page-a text-dark">3</a></li>
-    <li className="page-item"><a className="page-a text-dark">Next</a></li>
+    <li className="page-item"><button className="page-a text-dark">Previous</button></li>
+    <li className="page-item"><button className="page-a text-dark">1</button></li>
+    <li className="page-item"><button className="page-a text-dark">2</button></li>
+    <li className="page-item"><button className="page-a text-dark">3</button></li>
+    <li className="page-item"><button className="page-a text-dark">Next</button></li>
   </ul>
 </nav>
      
