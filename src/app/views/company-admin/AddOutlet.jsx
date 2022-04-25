@@ -23,7 +23,7 @@ function AddOutlet() {
  
   <input type="text" class="form-control ms-3" placeholder="Enter Outlet Location" aria-label="Outlet Location"/>
 </div>
-<a className='btn btn-success' href="/"> Click to Add Outlet Location</a>
+<a className='btn btn-success' > Click to Add Outlet Location</a>
     </div>
   </div>
 </div>
@@ -102,11 +102,11 @@ function AddOutlet() {
    
       <nav aria-label="Page navigation example" >
   <ul class="pagination ">
-    <li class="page-item"><a class="page-link text-dark" href="/">Previous</a></li>
-    <li class="page-item"><a class="page-link text-dark" href="/">1</a></li>
-    <li class="page-item"><a class="page-link text-dark" href="/">2</a></li>
-    <li class="page-item"><a class="page-link text-dark" href="/">3</a></li>
-    <li class="page-item"><a class="page-link text-dark" href="/">Next</a></li>
+    <li class="page-item"><a class="page-link text-dark" >Previous</a></li>
+    <li class="page-item"><a class="page-link text-dark" >1</a></li>
+    <li class="page-item"><a class="page-link text-dark" >2</a></li>
+    <li class="page-item"><a class="page-link text-dark" >3</a></li>
+    <li class="page-item"><a class="page-link text-dark" >Next</a></li>
   </ul>
 </nav>
      

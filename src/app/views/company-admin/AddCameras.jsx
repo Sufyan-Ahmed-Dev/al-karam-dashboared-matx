@@ -27,7 +27,7 @@ function AddCameras() {
 
 <input type="text" className="form-control ms-3" placeholder="Select Associated Modals" aria-label="Associated Modals"/>
 </div>
-<a className='btn btn-success' href="/"> Click to Add New Camera</a>
+<a className='btn btn-success'> Click to Add New Camera</a>
     </div>
   </div>
 </div>
@@ -106,11 +106,11 @@ function AddCameras() {
    
       <nav aria-label="Page navigation example" >
   <ul className="pagination ">
-    <li className="page-item"><a className="page-link text-dark" href="/">Previous</a></li>
-    <li className="page-item"><a className="page-link text-dark" href="/">1</a></li>
-    <li className="page-item"><a className="page-link text-dark" href="/">2</a></li>
-    <li className="page-item"><a className="page-link text-dark" href="/">3</a></li>
-    <li className="page-item"><a className="page-link text-dark" href="/">Next</a></li>
+    <li className="page-item"><a className="page-link text-dark">Previous</a></li>
+    <li className="page-item"><a className="page-link text-dark">1</a></li>
+    <li className="page-item"><a className="page-link text-dark">2</a></li>
+    <li className="page-item"><a className="page-link text-dark">3</a></li>
+    <li className="page-item"><a className="page-link text-dark">Next</a></li>
   </ul>
 </nav>
      
