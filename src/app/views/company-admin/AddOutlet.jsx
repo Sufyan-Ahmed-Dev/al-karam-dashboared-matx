@@ -1,12 +1,12 @@
 import React from 'react'
-import SimpleForm from "app/views/material-kit/forms/SimpleForm"
+
 
 
 function AddOutlet() {
 
   return (<>
       <h1>Add New Outlet</h1>
-{/* < SimpleForm></SimpleForm> */}
+
     
 
 <div className="container bg-white">
