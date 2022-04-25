@@ -43,9 +43,9 @@ const SimpleForm = () => {
         })
     }
 
-    const handleDateChange = (date) => {
-        setState({ ...state, date })
-    }
+    // const handleDateChange = (date) => {
+    //     setState({ ...state, date })
+    // }
 
     const {
         username,
