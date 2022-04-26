@@ -61,6 +61,7 @@ function AddOutlet() {
        
                 </div>
             </div>
+            <div>
             <table class="table table-bordered">
                 <thead>
                     <tr>
@@ -111,6 +112,7 @@ function AddOutlet() {
 </nav>
      
             </table>
+            </div>
         </div>
     </div>
       </div>
