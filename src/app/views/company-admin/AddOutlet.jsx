@@ -9,7 +9,7 @@ function AddOutlet() {
 
     
 
-<div className="container bg-white" >
+<div className="container bg-white table-wrapper" >
   <div className="row p-4 ">
   <div class="card" >
   <div class="card-body">
@@ -32,7 +32,7 @@ function AddOutlet() {
 
 
 
-  <div class="container-lg p-4" >
+  <div class="container-lg p-4 table-wrapper" >
 
 
     <div className="card p-3">
