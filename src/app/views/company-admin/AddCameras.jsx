@@ -4,7 +4,7 @@ function AddCameras() {
   return (<>
       <h1>Add New Cameras</h1>
   
-<div className="container bg-white">
+<div className="container bg-white" >
   <div className="row p-4 ">
   <div className="card" >
   <div className="card-body">
