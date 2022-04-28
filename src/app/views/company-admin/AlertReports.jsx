@@ -5,10 +5,14 @@ function AlertReports() {
 
 
     <>
-      <h1>AlertReports</h1>
+ 
       <div className="container bg-white">
         <div className="row p-4 ">
           <div class="card" >
+            <div className="card-header">
+
+            <h1>AlertReports</h1>
+            </div>
             <div class="card-body">
               <div className='p-0'>
                 <p className='bg-danger ps-3 p-2 text-white'> Alert Reports</p>

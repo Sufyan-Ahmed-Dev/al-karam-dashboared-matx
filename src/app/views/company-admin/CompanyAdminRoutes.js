@@ -29,6 +29,7 @@ const CompanyAdminRoutes= [
         path: '/alertreports',
         element: <AlertReports />,
     },
+   
 ]
 
 export default CompanyAdminRoutes

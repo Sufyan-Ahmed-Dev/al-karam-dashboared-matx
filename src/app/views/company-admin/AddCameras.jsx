@@ -2,11 +2,15 @@ import React from 'react'
 
 function AddCameras() {
   return (<>
-      <h1>Add New Cameras</h1>
+  
   
 <div className="container bg-white" >
   <div className="row p-4 ">
   <div className="card" >
+  <div className="card-header">
+  <h1>Add New Cameras</h1>
+  </div>
+
   <div className="card-body">
   <div className='p-0'>
   <p className='bg-danger ps-3 p-2 text-white'> Add Camera</p>
@@ -106,11 +110,11 @@ function AddCameras() {
    
       <nav aria-label="Page navigation example" >
   <ul className="pagination ">
-    <li className="page-item"><button className="page-a text-dark">Previous</button></li>
-    <li className="page-item"><button className="page-a text-dark">1</button></li>
-    <li className="page-item"><button className="page-a text-dark">2</button></li>
-    <li className="page-item"><button className="page-a text-dark">3</button></li>
-    <li className="page-item"><button className="page-a text-dark">Next</button></li>
+    <li className="page-item"><button className="btn btn-outline-primary text-dark">Previous</button></li>
+    <li className="page-item"><button className="btn btn-outline-primary text-dark">1</button></li>
+    <li className="page-item"><button className="btn btn-outline-primary text-dark">2</button></li>
+    <li className="page-item"><button className="btn btn-outline-primary text-dark">3</button></li>
+    <li className="page-item"><button className="btn btn-outline-primary text-dark">Next</button></li>
   </ul>
 </nav>
      

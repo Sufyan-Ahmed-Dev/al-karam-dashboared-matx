@@ -3,7 +3,7 @@ import React from 'react'
 function MasterAlerts() {
   return (<>
   
-  <h1>MasterAlerts</h1>
+
 {/* 
 <div class="container">
 <div class=" row">
@@ -37,8 +37,12 @@ function MasterAlerts() {
 
 <div class="container ">
 <div class=" row">
+<div className="card-header">
+    <h1>MasterAlerts</h1>
+    </div>
   <div className="col-lg-4 col-md-6 col-sm-10 rounded">
   <div class="card  ">
+    
         <div class="backgroundEffect"></div>
         <div class="pic card-sub "> <img class="w-100" src="https://images.pexels.com/photos/374016/pexels-photo-374016.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt=""/>
         </div>

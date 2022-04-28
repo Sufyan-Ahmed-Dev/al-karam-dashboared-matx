@@ -1,30 +1,24 @@
 import React from 'react'
-// import Add_AI_Modal from '../Super-Admin/Add_AI_Modal'
 
-
-function AddOutlet() {
-
+function AddAIModal() {
   return (<>
-     
+  
+  <h1>Add New Outlet</h1>
 
+  
 <div className="container bg-white table-wrapper" >
   <div className="row p-4 ">
   <div class="card" >
-    <div className="card-header">
-    <h1>Add New Outlet</h1>
-
-    
-    </div>
-     <div class="card-body">
+  <div class="card-body">
   <div className='p-0'>
-  <p className='bg-danger ps-3 p-2 text-white'> Add Outlet</p>
+  <p className='bg-danger ps-3 p-2 text-white'> Add AI Model</p>
 </div>
     <div className="col-10 ">
 <div class="input-group mb-3">
   
-  <input type="text" class="form-control me-3" placeholder="Enter Outlet Name" aria-label=" Outlet Name"/>
+  <input type="text" class="form-control me-3" placeholder="Enter Model Name" aria-label=" Outlet Name"/>
  
-  <input type="text" class="form-control ms-3" placeholder="Enter Outlet Location" aria-label="Outlet Location"/>
+  <input type="text" class="form-control ms-3" placeholder="Associated Company" aria-label="Outlet Location"/>
 </div>
 <button className='btn btn-success' > Click to Add Outlet Location</button>
     </div>
@@ -44,7 +38,6 @@ function AddOutlet() {
         <div class="table-wrapper">
             <div class="table-title">
                 <div class="row">
-                
                     <div class="col-sm-8 "><h2>Ai Model List</h2></div>
                     <div class="col-sm-4">
                     <input type="text" class="form-control me-3 mb-2" placeholder="Search Outlet Name" aria-label=" Outlet Name"/>
@@ -107,11 +100,11 @@ function AddOutlet() {
    
       <nav aria-label="Page navigation example" >
   <ul class="pagination ">
-    <li class="page-item"><button class="btn btn-outline-primary text-dark" >Previous</button></li>
-    <li class="page-item"><button class="btn btn-outline-primary text-dark" >1</button></li>
-    <li class="page-item"><button class="btn btn-outline-primary text-dark" >2</button></li>
-    <li class="page-item"><button class="btn btn-outline-primary text-dark" >3</button></li>
-    <li class="page-item"><button class="btn btn-outline-primary text-dark" >Next</button></li>
+    <li class="page-item"><button class="page-a text-dark" >Previous</button></li>
+    <li class="page-item"><button class="page-a text-dark" >1</button></li>
+    <li class="page-item"><button class="page-a text-dark" >2</button></li>
+    <li class="page-item"><button class="page-a text-dark" >3</button></li>
+    <li class="page-item"><button class="page-a text-dark" >Next</button></li>
   </ul>
 </nav>
      
@@ -125,14 +118,11 @@ function AddOutlet() {
 </div>     
 
 
-{/* <Add_AI_Modal></Add_AI_Modal>
-   */}
-  
   </>
+   
 
 
-    
   )
 }
 
-export default AddOutlet
+export default AddAIModal

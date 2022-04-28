@@ -5,7 +5,7 @@ function OutletManagerList() {
    
 
   <>
-   <h1>OutletManagerList</h1>
+  
 
    
 <div className="container">
@@ -16,6 +16,9 @@ function OutletManagerList() {
 
 
 <div className="card p-3">
+  <div className="card-header">
+  <h1>OutletManagerList</h1>
+  </div>
   <div className="card-body">
     <div class="table-responsive">
       <div class="table-wrapper">
