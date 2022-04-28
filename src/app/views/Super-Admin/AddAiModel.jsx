@@ -100,11 +100,11 @@ function AddAIModal() {
    
       <nav aria-label="Page navigation example" >
   <ul class="pagination ">
-    <li class="page-item"><button class="page-a text-dark" >Previous</button></li>
-    <li class="page-item"><button class="page-a text-dark" >1</button></li>
-    <li class="page-item"><button class="page-a text-dark" >2</button></li>
-    <li class="page-item"><button class="page-a text-dark" >3</button></li>
-    <li class="page-item"><button class="page-a text-dark" >Next</button></li>
+    <li class="page-item"><button class="btn btn-outline-primary text-dark" >Previous</button></li>
+    <li class="page-item"><button class="btn btn-outline-primary text-dark" >1</button></li>
+    <li class="page-item"><button class="btn btn-outline-primary text-dark" >2</button></li>
+    <li class="page-item"><button class="btn btn-outline-primary text-dark" >3</button></li>
+    <li class="page-item"><button class="btn btn-outline-primary text-dark" >Next</button></li>
   </ul>
 </nav>
      

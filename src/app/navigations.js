@@ -55,9 +55,32 @@ export const navigations = [
 
 
 
-
-
-
+    {
+        name: 'Super Admin',
+        icon: 'person',
+        children: [
+            {
+                name: 'Add Ai Model',
+                iconText: 'AO',
+                path: '/',
+            },
+            {
+                name: 'Add new Alert',
+                iconText: 'OM',
+                path: '/',
+            },
+            {
+                name: 'Add New Company',
+                iconText: 'ML',
+                path: '/outletmanagerlist',
+            },
+            {
+                name: 'Outlet Manager',
+                iconText: 'AC',
+                path: '/addcameras',
+            },
+        ],
+    },
 
 
 

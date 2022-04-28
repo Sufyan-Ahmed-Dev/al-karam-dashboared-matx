@@ -5,7 +5,7 @@ function AddOutletManager() {
   return (
     <>
    
-     <div className="container">
+     <div className="container mt-5">
        <div className="card">
          <div className="card-header">
          <h1>Add Outlet Manager</h1>

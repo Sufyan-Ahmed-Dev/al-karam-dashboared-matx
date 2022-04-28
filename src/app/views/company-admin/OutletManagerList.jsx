@@ -5,12 +5,12 @@ function OutletManagerList() {
    
 
   <>
-  
+   
 
    
-<div className="container">
-<button className='btn btn-success'> Add User</button>
-</div>
+{/* <div className="container">
+
+</div> */}
 
 <div class="container-lg p-4">
 
@@ -18,6 +18,7 @@ function OutletManagerList() {
 <div className="card p-3">
   <div className="card-header">
   <h1>OutletManagerList</h1>
+  <button className='btn btn-success'> Add User</button>
   </div>
   <div className="card-body">
     <div class="table-responsive">
