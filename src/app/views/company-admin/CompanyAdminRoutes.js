@@ -8,7 +8,13 @@ const AddOutletManager = Loadable(lazy(() => import('./AddOutletManager')))
 const OutletManagerList = Loadable(lazy(() => import('./OutletManagerList')))
 const AddCameras = Loadable(lazy(() => import('./AddCameras')))
 const AlertReports = Loadable(lazy(() => import('./AlertReports')))
-const AddAIModal = Loadable(lazy(() => import('../Super-Admin/AddAiModel')))
+const AddNewAiModel = Loadable(lazy(() => import('../Super-Admin/AddNewAiModel')))
+const AddAlerts = Loadable(lazy(() => import('../Super-Admin/AddAlerts')))
+const AddNewCompany = Loadable(lazy(() => import('../Super-Admin/AddNewCompany')))
+const AddNewUser = Loadable(lazy(() => import('../Super-Admin/AddNewUser')))
+const UserList = Loadable(lazy(() => import('../Super-Admin/UserList')))
+// const AddAlerts = Loadable(lazy(() => import('../Super-Admin/AddAlerts')))
+
 
 const CompanyAdminRoutes= [
     {
@@ -32,9 +38,26 @@ const CompanyAdminRoutes= [
         element: <AlertReports />,
     },
     {
-        path: '../Super-Admin/AddAiModel',
-        element: <AddAIModal></AddAIModal>,
+        path: '/AddNewAiModel',
+        element: <AddNewAiModel></AddNewAiModel>,
     },
+    {
+        path: '/AddNewCompany',
+        element: <AddNewCompany></AddNewCompany>,
+    },
+    {
+        path: '/AddNewUser',
+        element: <AddNewUser></AddNewUser>,
+    },
+    {
+        path: '/UserList',
+        element: <UserList></UserList>,
+    },
+    {
+        path: '/AddAlerts',
+        element: <AddAlerts></AddAlerts>,
+    },
+  
    
 ]
 

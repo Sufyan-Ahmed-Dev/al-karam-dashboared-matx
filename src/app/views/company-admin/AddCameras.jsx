@@ -8,7 +8,7 @@ function AddCameras() {
   <div className="row p-4 ">
   <div className="card" >
   <div className="card-header">
-  <h1>Add New Cameras</h1>
+  <h3>Add New Cameras</h3>
   </div>
 
   <div className="card-body">

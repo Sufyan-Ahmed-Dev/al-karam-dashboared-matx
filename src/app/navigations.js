@@ -53,34 +53,39 @@ export const navigations = [
 
     // super admin  extra nav 
 
-    {
-        label: 'Super Admin',
+    { 
+        label: 'Super Admin Entries',
         type: 'label',
     },
 
     {
-        name: 'Super Admin',
+        name: 'Add Details',
         icon: 'person',
         children: [
             {
-                name: 'Add Ai Model',
+                name: 'User List',
                 iconText: 'AO',
-                path: '/',
+                path: '/UserList',
             },
             {
-                name: 'Add new Alert',
+                name: 'Add new User',
                 iconText: 'OM',
-                path: '/',
+                path: '/AddNewUser',
             },
             {
                 name: 'Add New Company',
                 iconText: 'ML',
-                path: '/outletmanagerlist',
+                path: '/AddNewCompany',
             },
             {
-                name: 'Outlet Manager',
+                name: 'Add New Ai Model',
                 iconText: 'AC',
-                path: '/addcameras',
+                path: '/AddNewAiModel',
+            },
+            {
+                name: 'Add Alerts!',
+                iconText: 'AC',
+                path: '/AddAlerts',
             },
         ],
     },

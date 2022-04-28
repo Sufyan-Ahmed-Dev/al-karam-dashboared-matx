@@ -11,7 +11,7 @@ function AlertReports() {
           <div class="card" >
             <div className="card-header">
 
-            <h1>AlertReports</h1>
+            <h3>AlertReports</h3>
             </div>
             <div class="card-body">
               <div className='p-0'>

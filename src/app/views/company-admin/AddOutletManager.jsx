@@ -8,7 +8,7 @@ function AddOutletManager() {
      <div className="container mt-5">
        <div className="card">
          <div className="card-header">
-         <h1>Add Outlet Manager</h1>
+         <h3>Add Outlet Manager</h3>
          </div>
          <div className="card-body">
          <SimpleForm></SimpleForm>
