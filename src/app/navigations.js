@@ -53,7 +53,10 @@ export const navigations = [
 
     // super admin  extra nav 
 
-
+    {
+        label: 'Super Admin',
+        type: 'label',
+    },
 
     {
         name: 'Super Admin',

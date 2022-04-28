@@ -17,8 +17,11 @@ function OutletManagerList() {
 
 <div className="card p-3">
   <div className="card-header">
-  <h1>OutletManagerList</h1>
-  <button className='btn btn-success'> Add User</button>
+  <span className='h1'>OutletManagerList</span>
+  <div className="text-end">
+  <button className= 'text-end btn btn-success'> Add User</button>
+
+  </div>
   </div>
   <div className="card-body">
     <div class="table-responsive">

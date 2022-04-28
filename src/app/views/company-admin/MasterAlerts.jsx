@@ -41,7 +41,7 @@ function MasterAlerts() {
     <h1>MasterAlerts</h1>
     </div>
   <div className="col-lg-4 col-md-6 col-sm-10 rounded">
-  <div class="card  ">
+  <div class="card mt-2 ">
     
         {/* <div class="backgroundEffect"></div>*/}
 
@@ -58,15 +58,15 @@ function MasterAlerts() {
            <span className='ms-2'> <span className=''><i class="bi bi-geo-alt-fill"></i></span> Bilawal Chorangi</span>
        </div>
          
-            <div class="p-2 mt-1 border-top border-warning mx-5"> Status : <strong className='text-warning'>Not Working</strong> <span class="fas fa-arrow-right"></span></div>
-            <div class="p-2 border-top border-success mx-5">AI Status : <strong className='text-success'>No Alert</strong> <span class="fas fa-arrow-right"></span></div>
+            <div class="p-2 mt-1  mx-5"> Status : <strong className='text-danger'>Not Working</strong> <span class="fas fa-arrow-right"></span></div>
+            <div class="p-2  mx-5">AI Status : <strong className='text-success'>No Alert</strong> <span class="fas fa-arrow-right"></span></div>
         </div>
     </div>
 
   </div>
 
   <div className="col-lg-4 col-md-6 col-sm-10 rounded">
-  <div class="card  ">
+  <div class="card mt-2 ">
         <div class="backgroundEffect"></div>
         <div class="pic card-sub "> <img class="w-100" src="https://images.pexels.com/photos/374016/pexels-photo-374016.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt=""/>
         </div>
@@ -79,8 +79,8 @@ function MasterAlerts() {
            <span className='ms-2'> <span className=''><i class="bi bi-geo-alt-fill"></i></span> Bilawal Chorangi</span>
        </div>
          
-            <div class="p-2 mt-1 border-top border-warning mx-5"> Status : <strong className='text-warning'>Not Working</strong> <span class="fas fa-arrow-right"></span></div>
-            <div class="p-2 border-top border-success mx-5">AI Status : <strong className='text-success'>No Alert</strong> <span class="fas fa-arrow-right"></span></div>
+            <div class="p-2 mt-1  mx-5"> Status : <strong className='text-danger'>Not Working</strong> <span class="fas fa-arrow-right"></span></div>
+            <div class="p-2  mx-5">AI Status : <strong className='text-success'>No Alert</strong> <span class="fas fa-arrow-right"></span></div>
         </div>
     </div>
 
@@ -88,7 +88,7 @@ function MasterAlerts() {
 
 
   <div className="col-lg-4 col-md-6 col-sm-10 rounded">
-  <div class="card  ">
+  <div class="card mt-2 ">
         <div class="backgroundEffect"></div>
         <div class="pic card-sub "> <img class="w-100" src="https://images.pexels.com/photos/374016/pexels-photo-374016.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt=""/>
         </div>
@@ -101,8 +101,8 @@ function MasterAlerts() {
            <span className='ms-2'> <span className=''><i class="bi bi-geo-alt-fill"></i></span> Bilawal Chorangi</span>
        </div>
          
-            <div class="p-2 mt-1 border-top border-warning mx-5"> Status : <strong className='text-warning'>Not Working</strong> <span class="fas fa-arrow-right"></span></div>
-            <div class="p-2 border-top border-success mx-5">AI Status : <strong className='text-success'>No Alert</strong> <span class="fas fa-arrow-right"></span></div>
+            <div class="p-2 mt-1  mx-5"> Status : <strong className='text-danger'>Not Working</strong> <span class="fas fa-arrow-right"></span></div>
+            <div class="p-2  mx-5">AI Status : <strong className='text-success'>No Alert</strong> <span class="fas fa-arrow-right"></span></div>
         </div>
     </div>
 
