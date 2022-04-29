@@ -56,15 +56,15 @@ function AddAlerts() {
           </div>
 
           <div className="row d-flex flex-wrap mb-2">
-            <div className="col-6">
-              <div className="btn-group d-flex" role="group" aria-label="Basic example">
-                <button type="button" className="btn btn-dark">Copy</button>
-                <button type="button" className="btn btn-dark">CSV</button>
-                <button type="button" className="btn btn-dark">Excel</button>
-                <button type="button" className="btn btn-dark">PDF</button>
-                <button type="button" className="btn btn-dark">Print</button>
-                <button type="button" className="btn btn-dark">Colums Visibility</button>
-              </div>
+            <div className="btn-group" role="group" aria-label="Button group with nested dropdown">
+              <button type="button" className="btn btn-secondary">Copy</button>
+              <button type="button" className="btn btn-secondary">Csv</button>
+              <button type="button" className="btn btn-secondary">Excel </button>
+              <button type="button" className="btn btn-secondary">PDF</button>
+              <button type="button" className="btn btn-secondary">Print </button>
+              {/* <button type="button" className="btn btn-secondary">Lorem, ipsum dolor.</button> */}
+
+              
             </div>
 
           </div>
