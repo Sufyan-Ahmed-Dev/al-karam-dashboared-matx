@@ -9,7 +9,7 @@ function AlertReports() {
       <div className="container bg-white">
         <div className="row p-4 ">
           <div class="card" >
-            <div className="card-header">
+            <div className="card-header bg-white">
 
             <h3>AlertReports</h3>
             </div>
@@ -22,12 +22,14 @@ function AlertReports() {
                   <label className='m-2' htmlfor="start" > <strong>Start Date And Time :</strong></label>
                   <input type="date" id="start" name="trip-start"
                     placeholder="2018-07-22"
-                    min="2018-01-01" max="2018-12-31" class="form-control me-3" />
+                
+                 class="form-control me-3" />
 
                   <label className='m-2' htmlfor="End" > <strong>End Date And Time :</strong></label>
                   <input type="date" id="End" name="trip-start"
                     placeholder="2018-07-22"
-                    min="2018-01-01" max="2018-12-31" class="form-control me-3" />
+                  
+                   class="form-control me-3" />
 
                 </div>
                 <button className='btn btn-success btn-lg' > Filter</button>

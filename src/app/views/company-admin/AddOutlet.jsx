@@ -64,23 +64,23 @@ function AddOutlet() {
             </div>
 
           </div>
-          </div>
-          <div className="table-responsive" >  
-            <div className="table-wrapper">
-              <div className="table-title">
+        </div>
+        <div className="table-responsive" >
+          <div className="table-wrapper">
+            <div className="table-title">
 
-              
+
               <div>
 
 
                 <table className="table">
                   <thead>
                     <tr>
-                      <th scope="col">#</th>
-                      <th scope="col">First</th>
-                      <th scope="col">Last</th>
-                      <th scope="col">Handle</th>
-                      <th scope="col">Action</th>
+                      <th scope="col" style={{ "minWidth": "50px" }}>#</th>
+                      <th scope="col" style={{ "minWidth": "150px" }}>First</th>
+                      <th scope="col" style={{ "minWidth": "150px" }}>Last</th>
+                      <th scope="col" style={{ "minWidth": "150px" }}>Handle</th>
+                      <th scope="col" style={{ "minWidth": "50px" }}>Action</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -91,7 +91,7 @@ function AddOutlet() {
                       <td>@mdo</td>
                       <td>
                         {/* <a className="edit" title="Edit" data-toggle="tooltip"><i className="material-icons">&#xE254;</i></a> */}
-                        <a className="delete" title="Delete" data-toggle="tooltip"><i className="material-icons">&#xE872;</i></a>
+                        <a className="delete" style={{ "cursor": "pointer" }} title="Delete" data-toggle="tooltip"><i className="material-icons">&#xE872;</i></a>
                       </td>
                     </tr>
                     <tr>
@@ -99,72 +99,22 @@ function AddOutlet() {
                       <td>Jacob</td>
                       <td>Thornton</td>
                       <td>@fat</td>
-                      <td> 
-                         {/* <a className="edit" title="Edit" data-toggle="tooltip"><i className="material-icons">&#xE254;</i></a> */}
-                        <a className="delete" title="Delete" data-toggle="tooltip"><i className="material-icons">&#xE872;</i></a></td>
+                      <td>
+                        {/* <a className="edit" title="Edit" data-toggle="tooltip"><i className="material-icons">&#xE254;</i></a> */}
+                        <a className="delete" style={{ "cursor": "pointer" }} title="Delete" data-toggle="tooltip"><i className="material-icons">&#xE872;</i></a></td>
                     </tr>
                     <tr>
                       <th scope="row">3</th>
                       <td colspan="2">Larry the Bird</td>
                       <td>@twitter</td>
                       <td>
-                          {/* <a className="edit" title="Edit" data-toggle="tooltip"><i className="material-icons">&#xE254;</i></a> */}
-                        <a className="delete" title="Delete" data-toggle="tooltip"><i className="material-icons">&#xE872;</i></a></td>
+                        {/* <a className="edit" title="Edit" data-toggle="tooltip"><i className="material-icons">&#xE254;</i></a> */}
+                        <a className="delete" style={{ "cursor": "pointer" }} title="Delete" data-toggle="tooltip"><i className="material-icons">&#xE872;</i></a></td>
                     </tr>
                   </tbody>
                 </table>
 
 
-                {/* <table className="table table-bordered">
-                <thead>
-                    <tr>
-                        <th>S.no</th>
-                        <th>Outlet Name </th>
-                        <th>Outlet Location</th>
-                        <th>Actions</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>John Doe</td>
-                        <td>Administration</td>
-                        <td>(171) 555-2222</td>
-                        <td>
-
-                        <button className='delete btn btn-danger' title="Delete" href='/' data-toggle="tooltip">Delete</button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Peter Parker</td>
-                        <td>Customer Service</td>
-                        <td>(313) 555-5735</td>
-                        <td>
-                           
-                        <button className='delete btn btn-danger' title="Delete" href='/' data-toggle="tooltip">Delete</button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Fran Wilson</td>
-                        <td>Human Resources</td>
-                        <td>(503) 555-9931</td>
-                        <td>
-                           
-                            <button className='delete btn btn-danger' title="Delete" href='#' data-toggle="tooltip">Delete</button>
-                        </td>
-                    </tr>      
-                </tbody>
-   
-      <nav aria-label="Page navigation example" >
-  <ul className="pagination ">
-    <li className="page-item"><button className="btn btn-outline-primary text-dark" >Previous</button></li>
-    <li className="page-item"><button className="btn btn-outline-primary text-dark" >1</button></li>
-    <li className="page-item"><button className="btn btn-outline-primary text-dark" >2</button></li>
-    <li className="page-item"><button className="btn btn-outline-primary text-dark" >3</button></li>
-    <li className="page-item"><button className="btn btn-outline-primary text-dark" >Next</button></li>
-  </ul>
-</nav>
-     
-            </table> */}
               </div>
             </div>
           </div>

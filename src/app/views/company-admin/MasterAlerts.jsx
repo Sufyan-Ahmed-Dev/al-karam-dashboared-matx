@@ -37,7 +37,7 @@ function MasterAlerts() {
 
 <div class="container ">
 <div class=" row">
-<div className="card-header">
+<div className="card-header bg-white">
     <h3>MasterAlerts</h3>
     </div>
   <div className="col-lg-4 col-md-6 col-sm-10 rounded">
