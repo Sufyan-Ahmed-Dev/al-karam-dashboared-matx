@@ -14,7 +14,7 @@ const BadgeAutocomplete = () => {
                 },
             }}
         >
-            <Autocomplete
+            {/* <Autocomplete
                 multiple
                 id="tags-standard"
                 options={top100Films}
@@ -29,8 +29,8 @@ const BadgeAutocomplete = () => {
                         fullWidth
                     />
                 )}
-            />
-            <Autocomplete
+            /> */}
+            {/* <Autocomplete
                 multiple
                 id="tags-outlined"
                 options={top100Films}
@@ -46,7 +46,7 @@ const BadgeAutocomplete = () => {
                         fullWidth
                     />
                 )}
-            />
+            /> */}
             <Autocomplete
                 multiple
                 id="tags-filled"
@@ -65,9 +65,9 @@ const BadgeAutocomplete = () => {
                 renderInput={(params) => (
                     <TextField
                         {...params}
-                        variant="filled"
-                        label="freeSolo"
-                        placeholder="Favorites"
+                        // variant="filled"
+                        // label="freeSolo"
+                        placeholder="Associated Ai Model"
                         fullWidth
                     />
                 )}

@@ -1,4 +1,5 @@
 import React from 'react'
+import BadgeAutocomplete from '../material-kit/auto-complete/BadgeAutocomplete'
 
 function AddNewAiModel() {
   return (
@@ -22,8 +23,11 @@ function AddNewAiModel() {
                   <div className="col mb-2">
                     <input type="text" className="form-control" placeholder="Enter AI Model Name" />
                   </div>
-                  <div className="col mb-2 ms-sm-2">
+                  {/* <div className="col mb-2 ms-sm-2">
                     <input type="text" className="form-control" placeholder="Enter Associated Company" />
+                  </div> */}
+                    <div className="col mb-2 ms-sm-2">
+                      <BadgeAutocomplete></BadgeAutocomplete>
                   </div>
                 </div>
               </form>
