@@ -88,8 +88,8 @@ function AddNewAiModel() {
                       <td>Otto</td>
                       <td>@mdo</td>
                       <td>
-                        {/* <a className="edit" title="Edit" data-toggle="tooltip"><i className="material-icons">&#xE254;</i></a> */}
-                        <a className="delete" style={{ "cursor": "pointer" }} title="Delete" data-toggle="tooltip"><i className="material-icons">&#xE872;</i></a>
+                        {/* <a className="edit" title="Edit" data-toggle="tooltip"><i className="material-icons">&#xE254;</i></p> */}
+                        <p className="delete" style={{ "cursor": "pointer" }} title="Delete" data-toggle="tooltip"><i className="material-icons">&#xE872;</i></p>
                       </td>
                     </tr>
                     <tr>
@@ -98,16 +98,16 @@ function AddNewAiModel() {
                       <td>Thornton</td>
                       <td>@fat</td>
                       <td>
-                        {/* <a className="edit" title="Edit" data-toggle="tooltip"><i className="material-icons">&#xE254;</i></a> */}
-                        <a className="delete" style={{ "cursor": "pointer" }} title="Delete" data-toggle="tooltip"><i className="material-icons">&#xE872;</i></a></td>
+                        {/* <a className="edit" title="Edit" data-toggle="tooltip"><i className="material-icons">&#xE254;</i></p> */}
+                        <p className="delete" style={{ "cursor": "pointer" }} title="Delete" data-toggle="tooltip"><i className="material-icons">&#xE872;</i></p></td>
                     </tr>
                     <tr>
                       <th scope="row">3</th>
                       <td colspan="2">Larry the Bird</td>
                       <td>@twitter</td>
                       <td>
-                        {/* <a className="edit" title="Edit" data-toggle="tooltip"><i className="material-icons">&#xE254;</i></a> */}
-                        <a className="delete" style={{ "cursor": "pointer" }} title="Delete" data-toggle="tooltip"><i className="material-icons">&#xE872;</i></a></td>
+                        {/* <a className="edit" title="Edit" data-toggle="tooltip"><i className="material-icons">&#xE254;</i></p> */}
+                        <p className="delete" style={{ "cursor": "pointer" }} title="Delete" data-toggle="tooltip"><i className="material-icons">&#xE872;</i></p></td>
                     </tr>
                   </tbody>
                 </table>

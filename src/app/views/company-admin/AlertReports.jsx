@@ -32,7 +32,7 @@ function AlertReports() {
                    class="form-control me-3" />
 
                 </div>
-                <button className='btn btn-success btn-lg' > Filter</button>
+                <button className='btn btn-success ' > Filter</button>
               </div>
             </div>
           </div>

@@ -63,8 +63,8 @@ function OutletManagerList() {
                       <td>Otto</td>
                       <td>@mdo</td>
                       <td>
-                        <a className="edit" title="Edit" data-toggle="tooltip"><i className="material-icons " style={{"cursor" : "pointer"}}>&#xE254;</i></a>
-                        <a className="delete" title="Delete" data-toggle="tooltip"><i className="material-icons" style={{"cursor" : "pointer"}}>&#xE872;</i></a>
+                        <p className="edit" title="Edit" data-toggle="tooltip"><i className="material-icons " style={{"cursor" : "pointer"}}>&#xE254;</i></p>
+                        <p className="delete" title="Delete" data-toggle="tooltip"><i className="material-icons" style={{"cursor" : "pointer"}}>&#xE872;</i></p>
                       </td>
                     </tr>
                     <tr>
@@ -75,8 +75,8 @@ function OutletManagerList() {
                       <td>Thornton</td>
                       <td>@fat</td>
                       <td> 
-                         <a className="edit" title="Edit" data-toggle="tooltip"><i className="material-icons" style={{"cursor" : "pointer"}}>&#xE254;</i></a>
-                        <a className="delete" title="Delete" data-toggle="tooltip"><i className="material-icons" style={{"cursor" : "pointer"}}>&#xE872;</i></a></td>
+                         <p className="edit" title="Edit" data-toggle="tooltip"><i className="material-icons" style={{"cursor" : "pointer"}}>&#xE254;</i></p>
+                        <p className="delete" title="Delete" data-toggle="tooltip"><i className="material-icons" style={{"cursor" : "pointer"}}>&#xE872;</i></p></td>
                     </tr>
                     <tr>
                       <th scope="row">3</th>
@@ -85,8 +85,8 @@ function OutletManagerList() {
                       <td >Larry the Bird</td>
                       <td>@twitter</td>
                       <td>
-                          <a className="edit" title="Edit" data-toggle="tooltip"><i className="material-icons" style={{"cursor" : "pointer"}}>&#xE254;</i></a>
-                        <a className="delete" title="Delete" data-toggle="tooltip"><i className="material-icons" style={{"cursor" : "pointer"}}>&#xE872;</i></a></td>
+                          <p className="edit" title="Edit" data-toggle="tooltip"><i className="material-icons" style={{"cursor" : "pointer"}}>&#xE254;</i></p>
+                        <p className="delete" title="Delete" data-toggle="tooltip"><i className="material-icons" style={{"cursor" : "pointer"}}>&#xE872;</i></p></td>
                     </tr>
                   </tbody>
                 </table>

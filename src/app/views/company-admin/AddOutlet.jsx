@@ -91,7 +91,7 @@ function AddOutlet() {
                       <td>@mdo</td>
                       <td>
                         {/* <a className="edit" title="Edit" data-toggle="tooltip"><i className="material-icons">&#xE254;</i></a> */}
-                        <a className="delete" style={{ "cursor": "pointer" }} title="Delete" data-toggle="tooltip"><i className="material-icons">&#xE872;</i></a>
+                        <p className="delete" style={{ "cursor": "pointer" }} title="Delete" data-toggle="tooltip"><i className="material-icons">&#xE872;</i></p>
                       </td>
                     </tr>
                     <tr>
@@ -101,7 +101,7 @@ function AddOutlet() {
                       <td>@fat</td>
                       <td>
                         {/* <a className="edit" title="Edit" data-toggle="tooltip"><i className="material-icons">&#xE254;</i></a> */}
-                        <a className="delete" style={{ "cursor": "pointer" }} title="Delete" data-toggle="tooltip"><i className="material-icons">&#xE872;</i></a></td>
+                        <p className="delete" style={{ "cursor": "pointer" }} title="Delete" data-toggle="tooltip"><i className="material-icons">&#xE872;</i></p></td>
                     </tr>
                     <tr>
                       <th scope="row">3</th>
@@ -109,7 +109,7 @@ function AddOutlet() {
                       <td>@twitter</td>
                       <td>
                         {/* <a className="edit" title="Edit" data-toggle="tooltip"><i className="material-icons">&#xE254;</i></a> */}
-                        <a className="delete" style={{ "cursor": "pointer" }} title="Delete" data-toggle="tooltip"><i className="material-icons">&#xE872;</i></a></td>
+                        <p className="delete" style={{ "cursor": "pointer" }} title="Delete" data-toggle="tooltip"><i className="material-icons">&#xE872;</i></p></td>
                     </tr>
                   </tbody>
                 </table>
