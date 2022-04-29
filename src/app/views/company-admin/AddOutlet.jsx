@@ -20,7 +20,7 @@ function AddOutlet() {
             </div>
             <div className="col-10 ">
               <form>
-                <div className="d-lg-flex	">
+                <div className="d-md-flex	">
                   <div className="col mb-2">
                     <input type="text" className="form-control" placeholder="Enter Outlet Name" />
                   </div>

@@ -5,9 +5,44 @@ function AlertReports() {
 
 
     <>
+
+
+<div className="container bg-white table-wrapper" >
+      <div className="row p-4 ">
+        <div className="card" >
+          <div className="card-header bg-white">
+            <h3>Alert Reports</h3>
+
+          </div>
+          <div className="card-body">
+            <div className='p-0'>
+              <p className='bg-danger ps-3 p-2 text-white'> Alert Reports</p>
+            </div>
+            <div className="col-10 ">
+              <form>
+                <div className="d-md-flex	">
+                  <div className="col mb-2  ms-sm-2">
+                    <label htmlFor="input"> <strong>Start Date</strong>       </label>
+                    <input type="date" id className="form-control" placeholder="Enter Outlet Name" />
+             
+                  </div>
+                  <div className="col mb-2 ms-sm-2">
+                    <label htmlFor="input2"><strong>End Date</strong>   </label>
+                    <input type="date"  id='input2' className="form-control" placeholder="Enter outlet Location" />
+                 
+                  </div>
+                </div>
+              </form>
+              <button className='btn btn-success mt-2' > Click to Add Outlet Location</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
  
-      <div className="container bg-white">
-        <div className="row p-4 ">
+      {/* <div className="container bg-white">
+        <div className="d-md-flex p-4 ">
           <div class="card" >
             <div className="card-header bg-white">
 
@@ -37,7 +72,7 @@ function AlertReports() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
 
 

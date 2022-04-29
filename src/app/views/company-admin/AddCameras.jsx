@@ -19,8 +19,8 @@ function AddCameras() {
 
             <div className="col-12 ">
               <form>
-                <div className="d-lg-flex	">
-                  <div className="col mb-2">
+                <div className="	">
+                  <div className="col mb-2  ms-sm-2">
                     <input type="text" className="form-control" placeholder="Enter Outlet Name" />
                   </div>
                   <div className="col mb-2 ms-sm-2">

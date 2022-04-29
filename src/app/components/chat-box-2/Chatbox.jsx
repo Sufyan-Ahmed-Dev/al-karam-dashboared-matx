@@ -131,99 +131,99 @@ const Chatbox = ({ togglePopup }) => {
         }
     }, [chatBottomRef])
 
-    useEffect(() => {
-        if (isAlive) {
-            setMessageList([
-                {
-                    contactId: '323sa680b3249760ea21rt47',
-                    text: 'Do you ever find yourself falling into the “discount trap?”',
-                    time: '2018-02-10T08:45:28.291Z',
-                    id: '323sa680b3249760ea21rt47',
-                    name: 'Frank Powell',
-                    avatar: '/assets/images/faces/13.jpg',
-                    status: 'online',
-                    mood: '',
-                },
-                {
-                    contactId: '7863a6802ez0e277a0f98534',
-                    text: 'Giving away your knowledge or product just to gain clients?',
-                    time: '2018-02-10T08:45:28.291Z',
-                    id: '7863a6802ez0e277a0f98534',
-                    name: 'John Doe',
-                    avatar: '/assets/images/face-1.jpg',
-                    status: 'online',
-                    mood: '',
-                },
-                {
-                    contactId: '323sa680b3249760ea21rt47',
-                    text: 'Yes',
-                    time: '2018-02-10T08:45:28.291Z',
-                    id: '323sa680b3249760ea21rt47',
-                    name: 'Frank Powell',
-                    avatar: '/assets/images/faces/13.jpg',
-                    status: 'online',
-                    mood: '',
-                },
-                {
-                    contactId: '7863a6802ez0e277a0f98534',
-                    text: 'Don’t feel bad. It happens to a lot of us',
-                    time: '2018-02-10T08:45:28.291Z',
-                    id: '7863a6802ez0e277a0f98534',
-                    name: 'John Doe',
-                    avatar: '/assets/images/face-1.jpg',
-                    status: 'online',
-                    mood: '',
-                },
-                {
-                    contactId: '323sa680b3249760ea21rt47',
-                    text: 'Do you ever find yourself falling into the “discount trap?”',
-                    time: '2018-02-10T08:45:28.291Z',
-                    id: '323sa680b3249760ea21rt47',
-                    name: 'Frank Powell',
-                    avatar: '/assets/images/faces/13.jpg',
-                    status: 'online',
-                    mood: '',
-                },
-                {
-                    contactId: '7863a6802ez0e277a0f98534',
-                    text: 'Giving away your knowledge or product just to gain clients?',
-                    time: '2018-02-10T08:45:28.291Z',
-                    id: '7863a6802ez0e277a0f98534',
-                    name: 'John Doe',
-                    avatar: '/assets/images/face-1.jpg',
-                    status: 'online',
-                    mood: '',
-                },
-                {
-                    contactId: '323sa680b3249760ea21rt47',
-                    text: 'Yes',
-                    time: '2018-02-10T08:45:28.291Z',
-                    id: '323sa680b3249760ea21rt47',
-                    name: 'Frank Powell',
-                    avatar: '/assets/images/faces/13.jpg',
-                    status: 'online',
-                    mood: '',
-                },
-                {
-                    contactId: '7863a6802ez0e277a0f98534',
-                    text: 'Don’t feel bad. It happens to a lot of us',
-                    time: '2018-02-10T08:45:28.291Z',
-                    id: '7863a6802ez0e277a0f98534',
-                    name: 'John Doe',
-                    avatar: '/assets/images/face-1.jpg',
-                    status: 'online',
-                    mood: '',
-                },
-            ])
-        }
-        // getChatRoomByContactId(currentUserId, "323sa680b3249760ea21rt47").then(
-        //   ({ data }) => {
-        //     if (isAlive) {
-        //       setMessageList(data?.messageList);
-        //     }
-        //   }
-        // );
-    }, [isAlive])
+    // useEffect(() => {
+    //     if (isAlive) {
+    //         setMessageList([
+    //             {
+    //                 contactId: '323sa680b3249760ea21rt47',
+    //                 text: 'Do you ever find yourself falling into the “discount trap?”',
+    //                 time: '2018-02-10T08:45:28.291Z',
+    //                 id: '323sa680b3249760ea21rt47',
+    //                 name: 'Frank Powell',
+    //                 avatar: '/assets/images/faces/13.jpg',
+    //                 status: 'online',
+    //                 mood: '',
+    //             },
+    //             {
+    //                 contactId: '7863a6802ez0e277a0f98534',
+    //                 text: 'Giving away your knowledge or product just to gain clients?',
+    //                 time: '2018-02-10T08:45:28.291Z',
+    //                 id: '7863a6802ez0e277a0f98534',
+    //                 name: 'John Doe',
+    //                 avatar: '/assets/images/face-1.jpg',
+    //                 status: 'online',
+    //                 mood: '',
+    //             },
+    //             {
+    //                 contactId: '323sa680b3249760ea21rt47',
+    //                 text: 'Yes',
+    //                 time: '2018-02-10T08:45:28.291Z',
+    //                 id: '323sa680b3249760ea21rt47',
+    //                 name: 'Frank Powell',
+    //                 avatar: '/assets/images/faces/13.jpg',
+    //                 status: 'online',
+    //                 mood: '',
+    //             },
+    //             {
+    //                 contactId: '7863a6802ez0e277a0f98534',
+    //                 text: 'Don’t feel bad. It happens to a lot of us',
+    //                 time: '2018-02-10T08:45:28.291Z',
+    //                 id: '7863a6802ez0e277a0f98534',
+    //                 name: 'John Doe',
+    //                 avatar: '/assets/images/face-1.jpg',
+    //                 status: 'online',
+    //                 mood: '',
+    //             },
+    //             {
+    //                 contactId: '323sa680b3249760ea21rt47',
+    //                 text: 'Do you ever find yourself falling into the “discount trap?”',
+    //                 time: '2018-02-10T08:45:28.291Z',
+    //                 id: '323sa680b3249760ea21rt47',
+    //                 name: 'Frank Powell',
+    //                 avatar: '/assets/images/faces/13.jpg',
+    //                 status: 'online',
+    //                 mood: '',
+    //             },
+    //             {
+    //                 contactId: '7863a6802ez0e277a0f98534',
+    //                 text: 'Giving away your knowledge or product just to gain clients?',
+    //                 time: '2018-02-10T08:45:28.291Z',
+    //                 id: '7863a6802ez0e277a0f98534',
+    //                 name: 'John Doe',
+    //                 avatar: '/assets/images/face-1.jpg',
+    //                 status: 'online',
+    //                 mood: '',
+    //             },
+    //             {
+    //                 contactId: '323sa680b3249760ea21rt47',
+    //                 text: 'Yes',
+    //                 time: '2018-02-10T08:45:28.291Z',
+    //                 id: '323sa680b3249760ea21rt47',
+    //                 name: 'Frank Powell',
+    //                 avatar: '/assets/images/faces/13.jpg',
+    //                 status: 'online',
+    //                 mood: '',
+    //             },
+    //             {
+    //                 contactId: '7863a6802ez0e277a0f98534',
+    //                 text: 'Don’t feel bad. It happens to a lot of us',
+    //                 time: '2018-02-10T08:45:28.291Z',
+    //                 id: '7863a6802ez0e277a0f98534',
+    //                 name: 'John Doe',
+    //                 avatar: '/assets/images/face-1.jpg',
+    //                 status: 'online',
+    //                 mood: '',
+    //             },
+    //         ])
+    //     }
+    //     // getChatRoomByContactId(currentUserId, "323sa680b3249760ea21rt47").then(
+    //     //   ({ data }) => {
+    //     //     if (isAlive) {
+    //     //       setMessageList(data?.messageList);
+    //     //     }
+    //     //   }
+    //     // );
+    // }, [isAlive])
 
     useEffect(() => {
         scrollToBottom()
