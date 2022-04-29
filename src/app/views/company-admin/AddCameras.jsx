@@ -1,4 +1,5 @@
 import React from 'react'
+import BadgeAutocomplete from '../material-kit/auto-complete/BadgeAutocomplete'
 
 function AddCameras() {
   return (<>
@@ -36,7 +37,7 @@ function AddCameras() {
                     </select>
                   </div>
                   <div className="col mb-2 ms-sm-2">
-                  <input type="text" className="form-control " placeholder="Select Associated Modals" aria-label="Associated Modals" />
+                      <BadgeAutocomplete></BadgeAutocomplete>
                   </div>
                 </div>
               </form>
