@@ -1,4 +1,4 @@
-import { H5, Span } from '../Typography'
+// import  Span  from '../Typography'
 import BadgeSelected from './BadgeSelected'
 import Scrollbar from 'react-perfect-scrollbar'
 import useSettings from 'app/hooks/useSettings'
@@ -6,32 +6,32 @@ import React, { Fragment, useState } from 'react'
 import { styled, Box, useTheme } from '@mui/system'
 import { themeShadows } from '../MatxTheme/themeColors'
 import {
-    Icon,
+    // Icon,
     Card,
     Link,
     Button,
     Drawer,
-    Tooltip,
-    IconButton,
+    // Tooltip,
+    // IconButton,
     ThemeProvider,
 } from '@mui/material'
 
-const Label = styled(Span)(({ theme }) => ({
-    color: theme.palette.secondary.main,
-    backgroundColor: theme.palette.primary.dark,
-    fontWeight: 700,
-    transform: 'rotate(90deg)',
-    marginBottom: '2.5rem',
-    padding: '.25rem .5rem',
-    borderRadius: '4px',
-    cursor: 'pointer',
-    letterSpacing: '1.5px',
-    fontSize: '1rem',
-    '&:hover, &.open': {
-        backgroundColor: theme.palette.secondary.main,
-        color: theme.palette.secondary.contrastText,
-    },
-}))
+// const Label = styled(Span)(({ theme }) => ({
+//     color: theme.palette.secondary.main,
+//     backgroundColor: theme.palette.primary.dark,
+//     fontWeight: 700,
+//     transform: 'rotate(90deg)',
+//     marginBottom: '2.5rem',
+//     padding: '.25rem .5rem',
+//     borderRadius: '4px',
+//     cursor: 'pointer',
+//     letterSpacing: '1.5px',
+//     fontSize: '1rem',
+//     '&:hover, &.open': {
+//         backgroundColor: theme.palette.secondary.main,
+//         color: theme.palette.secondary.contrastText,
+//     },
+// }))
 
 const MaxCustomaizer = styled('div')(({ theme }) => ({
     height: '100vh',
@@ -71,15 +71,15 @@ const LayoutBox = styled(BadgeSelected)(() => ({
     },
 }))
 
-const Controller = styled('div')(() => ({
-    minHeight: 58,
-    padding: '14px 20px',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    marginBottom: '16px',
-    boxShadow: themeShadows[6],
-}))
+// const Controller = styled('div')(() => ({
+//     minHeight: 58,
+//     padding: '14px 20px',
+//     display: 'flex',
+//     alignItems: 'center',
+//     justifyContent: 'space-between',
+//     marginBottom: '16px',
+//     boxShadow: themeShadows[6],
+// }))
 
 const IMG = styled('img')(() => ({
     width: '100%',
@@ -100,9 +100,9 @@ const MatxCustomizer = () => {
     const tooglePanel = () => {
         setOpen(!open)
     }
-    const handleTabChange = (index) => {
-        setTabIndex(index)
-    }
+    // const handleTabChange = (index) => {
+    //     setTabIndex(index)
+    // }
     let activeTheme = { ...settings.themes[settings.activeTheme] }
 
     return (
