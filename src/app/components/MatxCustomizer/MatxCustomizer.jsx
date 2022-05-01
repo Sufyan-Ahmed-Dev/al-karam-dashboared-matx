@@ -92,7 +92,7 @@ const StyledScrollBar = styled(Scrollbar)(() => ({
 
 const MatxCustomizer = () => {
     const [open, setOpen] = useState(false)
-    const [tabIndex, setTabIndex] = useState(0)
+    // const [tabIndex, setTabIndex] = useState(0)
     const { settings, updateSettings } = useSettings()
     const theme = useTheme()
     const secondary = theme.palette.text.secondary

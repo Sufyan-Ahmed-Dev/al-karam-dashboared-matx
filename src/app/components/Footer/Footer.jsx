@@ -40,11 +40,11 @@ const Footer = () => {
 
     return (
         <ThemeProvider theme={footerTheme}>
-            {/* <AppBar
+            <AppBar
                 color="primary"
                 position="static"
                 sx={{ zIndex: 96 }}
-            > */}
+            >
                 <AppFooter>
                     <FooterContent>
                         {/* <a href="https://ui-lib.com/downloads/matx-pro-react-admin/">
@@ -59,7 +59,7 @@ const Footer = () => {
                         </Paragraph>
                     </FooterContent>
                 </AppFooter>
-            {/* </AppBar> */}
+            </AppBar>
         </ThemeProvider>
     )
 }
