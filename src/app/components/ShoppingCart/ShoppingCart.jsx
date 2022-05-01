@@ -126,11 +126,11 @@ function ShoppingCart({ container }) {
 
     return (
         <Fragment>
-            <IconButton onClick={handleDrawerToggle}>
+            {/* <IconButton onClick={handleDrawerToggle}>
                 <Badge color="secondary" badgeContent={cartList.length}>
                     <Icon sx={{ color: textColor }}>shopping_cart</Icon>
                 </Badge>
-            </IconButton>
+            </IconButton> */}
 
             <ThemeProvider theme={settings.themes[settings.activeTheme]}>
                 <Drawer
@@ -144,10 +144,10 @@ function ShoppingCart({ container }) {
                     }}
                 >
                     <MiniCart>
-                        <CartBox>
+                        {/* <CartBox>
                             <Icon color="primary">shopping_cart</Icon>
                             <h5>Cart</h5>
-                        </CartBox>
+                        </CartBox> */}
 
                         <Box flexGrow={1} overflow="auto">
                             {cartList.map((product) => (
