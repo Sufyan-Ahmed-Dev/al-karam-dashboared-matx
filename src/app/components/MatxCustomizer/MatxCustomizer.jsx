@@ -100,9 +100,9 @@ const MatxCustomizer = () => {
     const tooglePanel = () => {
         setOpen(!open)
     }
-    // const handleTabChange = (index) => {
-    //     setTabIndex(index)
-    // }
+    const handleTabChange = (index) => {
+        setTabIndex(index)
+    }
     let activeTheme = { ...settings.themes[settings.activeTheme] }
 
     return (
