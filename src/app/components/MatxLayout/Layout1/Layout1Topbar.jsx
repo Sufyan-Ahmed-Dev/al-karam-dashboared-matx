@@ -123,7 +123,7 @@ const Layout1Topbar = () => {
                         <Icon>menu</Icon>
                     </StyledIconButton>
 
-                    <IconBox>
+                    {/* <IconBox>
                         <StyledIconButton>
                             <Icon>mail_outline</Icon>
                         </StyledIconButton>
@@ -134,8 +134,8 @@ const Layout1Topbar = () => {
 
                         <StyledIconButton>
                             <Icon>star_outline</Icon>
-                        </StyledIconButton>
-                    </IconBox>
+                        </StyledIconButton> */}
+                    {/* </IconBox> */}
                 </Box>
                 <Box display="flex" alignItems="center">
                     <MatxSearchBox />
@@ -143,14 +143,14 @@ const Layout1Topbar = () => {
                         <NotificationBar />
                     </NotificationProvider>
 
-                    <ShoppingCart />
+                    {/* <ShoppingCart /> */}
 
                     <MatxMenu
                         menuButton={
                             <UserMenu>
                                 <Hidden xsDown>
                                     <Span>
-                                        Hi <strong>{user.name}</strong>
+                                        Hi <strong>Akhlaq</strong>
                                     </Span>
                                 </Hidden>
                                 <Avatar

@@ -25,7 +25,7 @@ const Brand = ({ children }) => {
     return (
         <BrandRoot>
             <Box display="flex" alignItems="center">
-                <MatxLogo />
+                {/* <MatxLogo /> */}
                 <StyledSpan mode={mode} className="sidenavHoverShow">
                    Al-Karam
                 </StyledSpan>

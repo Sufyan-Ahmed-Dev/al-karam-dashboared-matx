@@ -61,7 +61,7 @@ const Layout1Customizer = ({ settings, handleChange, handleControlChange }) => {
                 <ThemeName>Sidebar theme</ThemeName>
                 <ToolbarContainer>
                     {mainSidebarThemes
-                        // .filter(c => themeColors[c].palette.type === "dark")
+                        .filter(c => themeColors[c].palette.type === "dark")
                         .map((color, i) => (
                             <Tooltip key={i} title={color} placement="top">
                                 <ToolbarContent

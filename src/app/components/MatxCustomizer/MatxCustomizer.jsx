@@ -107,11 +107,11 @@ const MatxCustomizer = () => {
 
     return (
         <Fragment>
-            <Tooltip title="Theme Settings" placement="left">
+            {/* <Tooltip title="Theme Settings" placement="left">
                 <Label className="open" onClick={tooglePanel}>
                     DEMOS
                 </Label>
-            </Tooltip>
+            </Tooltip> */}
 
             <ThemeProvider theme={activeTheme}>
                 <Drawer
@@ -124,11 +124,11 @@ const MatxCustomizer = () => {
                     }}
                 >
                     <MaxCustomaizer>
-                        <Controller>
+                        {/* <Controller>
                             <Box display="flex">
                                 <Icon className="icon" color="primary">
                                     settings
-                                </Icon>
+                                 </Icon>
                                 <H5 sx={{ ml: 1, fontSize: '1rem' }}>
                                     Theme Settings
                                 </H5>
@@ -136,23 +136,23 @@ const MatxCustomizer = () => {
                             <IconButton onClick={tooglePanel}>
                                 <Icon className="icon">close</Icon>
                             </IconButton>
-                        </Controller>
+                        </Controller> */}
                         <Box px={3} mb={2} display="flex">
-                            <Button
+                            {/* <Button
                                 variant="outlined"
                                 color={tabIndex === 0 ? 'secondary' : 'primary'}
                                 onClick={() => handleTabChange(0)}
                                 sx={{ mr: 2 }}
                             >
                                 Demos
-                            </Button>
-                            <Button
+                            </Button> */}
+                            {/* <Button
                                 variant="outlined"
                                 color={tabIndex === 1 ? 'secondary' : 'primary'}
                                 onClick={() => handleTabChange(1)}
                             >
                                 Settings
-                            </Button>
+                            </Button> */}
                         </Box>
 
                         <StyledScrollBar options={{ suppressScrollX: true }}>
