@@ -6,8 +6,8 @@ import { useNavigate } from 'react-router-dom'
 import useSettings from 'app/hooks/useSettings'
 import React, { Fragment, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { themeShadows } from '../MatxTheme/themeColors'
-import { sideNavWidth, topBarHeight } from 'app/utils/constant'
+// import { themeShadows } from '../MatxTheme/themeColors'
+import { sideNavWidth } from 'app/utils/constant'
 import {
     getCartList,
     deleteProductFromCart,
@@ -121,7 +121,7 @@ function ShoppingCart({ container }) {
         setTotalCost(total)
     }, [cartList])
 
-    const { palette } = useTheme()
+    // const { palette } = useTheme()
     // const textColor = palette.text.primary
 
     return (
