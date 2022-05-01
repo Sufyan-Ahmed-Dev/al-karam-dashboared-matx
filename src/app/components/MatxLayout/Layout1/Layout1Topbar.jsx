@@ -154,7 +154,7 @@ const Layout1Topbar = () => {
                                     </Span>
                                 </Hidden>
                                 <Avatar
-                                    src={user.avatar}
+                                    // src={user.avatar}
                                     sx={{ cursor: 'pointer' }}
                                 />
                             </UserMenu>
