@@ -15,7 +15,7 @@ import {
 } from 'app/redux/actions/EcommerceActions'
 import {
     Icon,
-    Badge,
+    // Badge,
     IconButton,
     Drawer,
     Button,
@@ -38,20 +38,20 @@ const MiniCart = styled('div')(({ theme }) => ({
     width: sideNavWidth,
 }))
 
-const CartBox = styled('div')(() => ({
-    padding: '4px',
-    paddingLeft: '16px',
-    display: 'flex',
-    alignItems: 'center',
-    boxShadow: themeShadows[6],
-    height: topBarHeight,
-    '& h5': {
-        marginTop: 0,
-        marginBottom: 0,
-        marginLeft: '16px',
-        fontWeight: '500',
-    },
-}))
+// const CartBox = styled('div')(() => ({
+//     padding: '4px',
+//     paddingLeft: '16px',
+//     display: 'flex',
+//     alignItems: 'center',
+//     boxShadow: themeShadows[6],
+//     height: topBarHeight,
+//     '& h5': {
+//         marginTop: 0,
+//         marginBottom: 0,
+//         marginLeft: '16px',
+//         fontWeight: '500',
+//     },
+// }))
 
 const ProductBox = styled('div')(() => ({
     display: 'flex',
@@ -122,7 +122,7 @@ function ShoppingCart({ container }) {
     }, [cartList])
 
     const { palette } = useTheme()
-    const textColor = palette.text.primary
+    // const textColor = palette.text.primary
 
     return (
         <Fragment>
