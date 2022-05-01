@@ -92,7 +92,7 @@ const StyledScrollBar = styled(Scrollbar)(() => ({
 
 const MatxCustomizer = () => {
     const [open, setOpen] = useState(false)
-    // const [tabIndex, setTabIndex] = useState(0)
+    const [tabIndex] = useState(0)
     const { settings, updateSettings } = useSettings()
     const theme = useTheme()
     const secondary = theme.palette.text.secondary
@@ -103,7 +103,7 @@ const MatxCustomizer = () => {
     // const handleTabChange = (index) => {
     //     setTabIndex(index)
     // }
-    // let activeTheme = { ...settings.themes[settings.activeTheme] }
+    let activeTheme = { ...settings.themes[settings.activeTheme] }
 
     return (
         <Fragment>
