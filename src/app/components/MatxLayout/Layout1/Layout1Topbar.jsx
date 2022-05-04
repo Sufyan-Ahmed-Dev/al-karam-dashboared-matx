@@ -87,7 +87,7 @@ const StyledItem = styled(MenuItem)(({ theme }) => ({
 const Layout1Topbar = () => {
     const theme = useTheme()
     const { settings, updateSettings } = useSettings()
-    const { logout } = useAuth()
+    const  logout = useAuth()
     const isMdScreen = useMediaQuery(theme.breakpoints.down('md'))
 
     const updateSidebarMode = (sidebarSettings) => {
